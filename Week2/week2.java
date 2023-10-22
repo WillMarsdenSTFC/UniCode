@@ -7,6 +7,9 @@ class week2 {
 
         do {
 
+            evenLoop eL = new evenLoop();
+            eL.evenNumbers();
+
             basicLoop bL = new basicLoop();
             bL.loop();
 
