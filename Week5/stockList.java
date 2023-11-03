@@ -19,7 +19,7 @@ public class stockList {
 
     public int findIndex(productClass Product) {
         for (int i = 0; i < Products.size(); i++) {
-            if(Product.getName() == Products.get(i).getName().toString()) {
+            if(Product.getName() == Products.get(i).getName()) {
                 return i;
             }
         }
