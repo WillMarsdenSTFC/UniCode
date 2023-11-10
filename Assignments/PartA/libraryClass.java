@@ -27,10 +27,14 @@ public class libraryClass {
         for (songClass s : Library) {
             System.out.println("Song Title: ");
             System.out.print(s.getTitle());
+            System.out.println();
             System.out.println("Artist Name: ");
             System.out.print(s.getArtist());
+            System.out.println();
             System.out.println("Play Count: ");
             System.out.print(s.getCount());
+            System.out.println();
+            System.out.println();
         }
     }
 }
